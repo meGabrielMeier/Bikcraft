@@ -9,6 +9,7 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 80px;
 }
 
 .parceiros li {
@@ -43,6 +44,10 @@
   .parceiros h2 {
     margin-bottom: -60px;
     margin-top: 20px;
+  }
+  .parceiros li{
+    display:flex;
+    padding: 32px;
   }
   .parceiros ul {
     grid-template-columns: repeat(2,1fr);
